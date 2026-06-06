@@ -115,11 +115,15 @@ The remaining gap to the ceiling is almost entirely the 2Y, which is closable on
 
 ## How to run
 
-1. Open `CIR_Yield_Curve_Project.ipynb` in [Google Colab]([https://colab.research.google.com/](https://colab.research.google.com/drive/1mOaN560VW47PIK_tLMKSgJqBUDWU61J0?usp=sharing)) (or Jupyter).
-2. In the **Setup** cell, either upload the three CSVs to the session (leave `DATA_DIR = ""`) or mount Google Drive and set `DATA_DIR`.
-3. **Runtime → Restart and run all.** The notebook runs top to bottom, regenerates every figure, and prints all evaluation metrics inline.
 
-No special hardware is required; a standard CPU runtime completes in a couple of minutes.
+
+---
+
+1. Open `CIR_Yield_Curve_Project.ipynb` in [Google Colab](https://colab.research.google.com/drive/1mOaN560VW47PIK_tLMKSgJqBUDWU61J0?usp=sharing).
+2. Go to **Runtime → Restart and run all** (or press `Ctrl+F9`).
+3. **Zero Setup Required:** The notebook will automatically download the required datasets into the Colab environment. It will execute from top to bottom, regenerate every figure, and print all evaluation metrics inline.
+
+
 
 ---
 
