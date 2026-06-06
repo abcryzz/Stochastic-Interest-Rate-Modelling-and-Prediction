@@ -48,7 +48,7 @@ A fully **out-of-sample, look-ahead-free** pooled **R² = 0.875** reconstructing
 
 ```
 .
-├── CIR_Yield_Curve_Project.ipynb     # Main deliverable — runs top to bottom
+├── CIR_Yield_Curve_Project_.ipynb     # Main deliverable — runs top to bottom
 ├── data/
 │   ├── train_data.csv                # 2016–2024, 9 maturities (calibration)
 │   ├── test_data.csv                 # 2024–2026, 5 maturities (scoring)
@@ -61,7 +61,7 @@ A fully **out-of-sample, look-ahead-free** pooled **R² = 0.875** reconstructing
 └── README.md
 ```
 
-> Adjust paths to match your upload. The notebook's **Setup** cell lets you either upload the three CSVs to the session or mount Google Drive.
+
 
 ---
 
@@ -115,7 +115,7 @@ The remaining gap to the ceiling is almost entirely the 2Y, which is closable on
 
 ## How to run
 
-1. Open `CIR_Yield_Curve_Project.ipynb` in [Google Colab](https://colab.research.google.com/) (or Jupyter).
+1. Open `CIR_Yield_Curve_Project.ipynb` in [Google Colab]([https://colab.research.google.com/](https://colab.research.google.com/drive/1mOaN560VW47PIK_tLMKSgJqBUDWU61J0?usp=sharing)) (or Jupyter).
 2. In the **Setup** cell, either upload the three CSVs to the session (leave `DATA_DIR = ""`) or mount Google Drive and set `DATA_DIR`.
 3. **Runtime → Restart and run all.** The notebook runs top to bottom, regenerates every figure, and prints all evaluation metrics inline.
 
